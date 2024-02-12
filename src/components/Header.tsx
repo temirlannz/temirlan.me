@@ -38,10 +38,10 @@ const Header = () => {
             <Clock time={now.getTime()} />
 
             <span className='space-y-1'>
-                <h1 className='text-xl'>
-                    Zhanibek Temirlan
+                <h1 className='text-lg sm:text-xl'>
+                    Temirlan Zhanibek
                 </h1>
-                <h2 className='text-lg text-[#A0A0A0]'>
+                <h2 className='text-md sm:text-lg text-[#A0A0A0]'>
                     An enthusiast full-stack developer
                 </h2>
             </span>
@@ -63,7 +63,7 @@ const Header = () => {
             </div>
 
             <div className='flex justify-center items-center gap-4'>
-                <button className='flex items-center bg-white text-[#161616] rounded-md gap-2 py-1 px-4'>
+                <button className='flex items-center bg-white text-[#161616] rounded-md gap-2 py-0.5 px-2 sm:py-1 sm:px-4'>
                     Contact me
                     <Mail strokeWidth={1.5} size={18} />
                 </button>
@@ -75,6 +75,10 @@ const Header = () => {
                     <Copy strokeWidth={1.5} size={16} />
                 </button>
             </div>
+
+            <span className='text-[13px] text-[#707070] font-mono'>
+                KZ, Almaty · 43.1523° N, 76.5542° E
+            </span>
         </nav>
     )
 }

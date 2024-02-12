@@ -21,7 +21,7 @@ export const Clock = ({ time: initial }: Props) => {
     }, [])
 
     return (
-        <div className="text-[13px] text-[#707070] tabular-nums">
+        <div className="text-[13px] text-[#707070] font-mono tabular-nums">
             <Time time={time} />
         </div>
     )
