@@ -85,7 +85,7 @@ const Header = () => {
 
                 <button
                     onClick={() => copyEmail('t.zhanibek@bk.ru')}
-                    className='flex items-center bg-[#282828] rounded-md gap-2 py-1 px-4 border-[1px] border-[#2E2E2E]'
+                    className='flex items-center bg-[#282828] rounded-md gap-2 py-0.5 px-2 sm:py-1 sm:px-4 border-[1px] border-[#2E2E2E]'
                 >
                     {copy ? "Copied" : "Copy email"}
                     {copy ? <Check strokeWidth={1.5} size={16} /> : <Copy strokeWidth={1.5} size={16}/>}
