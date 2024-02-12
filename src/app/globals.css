@@ -4,8 +4,10 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-primary: 35, 35, 35;
+  --main-color: 237, 237, 237;
+  --secondary-color: 160, 160, 160;
+  --third-color: 112, 112, 122;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,17 +19,12 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--main-color));
+  background: rgb(var(--background-primary));
+  font-size: 14px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+button {
+  font-size: 14px;
 }
+
