@@ -3,7 +3,7 @@ import React from 'react'
 const Experience = () => {
     return (
         <section className='relative'>
-            <span className='block mb-1 text-lg sm:text-sm sm:absolute sm:w-16 sm:top-0 sm:-left-24 sm:text-right underline sm:no-underline sm:text-[#A0A0A0]'>Experience</span>
+            <span className='block mb-1 text-lg sm:text-sm sm:absolute sm:w-20 sm:top-0 sm:-left-28 sm:text-right underline sm:no-underline sm:text-[#A0A0A0]'>Experience</span>
 
             <div className='flex flex-col gap-4'>
                 <div>
