@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import React from "react";
-import {Boxes} from "@/components/ui/background-boxes";
 
 const inter = Inter({ subsets: ["latin"] });
 
