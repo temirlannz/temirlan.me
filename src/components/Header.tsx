@@ -68,8 +68,13 @@ const Header = () => {
             </span>
 
             <div className='flex justify-center gap-7'>
-                {socials.map(social => (
-                    <Link href={social.link} target='_blank' className='text-[#A0A0A0] hover:text-white transition'>
+                {socials.map((social, index) => (
+                    <Link
+                        key={index}
+                        href={social.link}
+                        target='_blank'
+                        className='text-[#A0A0A0] hover:text-white transition'
+                    >
                         {social.icon}
                     </Link>
                 ))}
