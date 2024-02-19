@@ -15,7 +15,7 @@ const Experience = () => {
 
                         <div className='flex flex-col text-right'>
                             <span>Remote</span>
-                            <span>Feb 2024 - Present</span>
+                            <span>Jan 2023 - Feb 2024</span>
                         </div>
                     </div>
 
