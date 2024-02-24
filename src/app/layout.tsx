@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      "Hello, world. f6f0bb7d is the polls index."
         <div className='max-w-[540px] mx-auto py-5 sm:py-10 px-3 sm:px-0 flex flex-col gap-10'>
           <header>
             <Header />
